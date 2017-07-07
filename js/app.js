@@ -6,7 +6,6 @@ btn.addEventListener("click", function(){ drawModule.start();});
 	document.onkeydown = function(event) {
 
 	  keyCode = event.keyCode;
-		// console.log(food);
 
 	  switch(keyCode) {
 
