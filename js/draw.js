@@ -135,7 +135,7 @@ var drawModule = (function () {
 
 
     return {
-      init : init
+      start : init
     };
 
 
