@@ -124,6 +124,9 @@ var drawModule = (function () {
   }
 
   var init = function(){
+      initSpeed = 80;
+      currentSpeed = initSpeed;
+      maxSpeed = 15;
       direction = 'down';
       drawSnake();
       createFood();
